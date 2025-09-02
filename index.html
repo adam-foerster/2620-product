@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Little Leaf Kits | DIY Succulent Kits</title>
+		<title>Little Leaf Kits | Checkout</title>
 		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
 		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
 		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
@@ -19,14 +19,16 @@
 					width="75"
 					alt="Little Leaf Kits Logo" />
 				<div class="pl-4 text-2xl">
-					<h1>Little Leaf Kits | DIY Succulent Kits</h1>
+					<h1>Little Leaf Kits | Checkout</h1>
 				</div>
 			</div>
 			<div class="flex space-x-4 justify-end">
-				<a href="#"
+				<a
+					href="#"
+					class="p-2 hover:border-black border-x mx-1 border-green-100"
 					><img src="account.svg" alt="Account Icon" height="25" width="25"
 				/></a>
-				<a href="#"
+				<a href="#" class="p-2 border-black border-x mx-1"
 					><img src="cart.svg" alt="Cart Icon" height="25" width="25"
 				/></a>
 			</div>
@@ -40,7 +42,7 @@
 				<li class="p-2 hover:border-black border-x mx-1 border-white">
 					<a href="#">About</a>
 				</li>
-				<li class="border-black border-x p-2 mx-1">
+				<li class="hover:border-black border-x p-2 mx-1 border-white">
 					<a href="#">Succulent Kits</a>
 				</li>
 				<li class="hover:border-black border-x p-2 mx-1 border-white">
@@ -52,69 +54,177 @@
 			</ul>
 		</nav>
 
-		<main class="mx-auto max-w-6xl p-4 grid md:grid-cols-2 gap-4">
-			<div class="flex justify-center items-center">
-				<img
-					src="product1.webp"
-					alt="Succlent Terrarium"
-					class="w-full h-auto"
-					height="100"
-					width="100" />
-			</div>
-			<div class="flex flex-col">
-				<h1 class="text-2xl pb-4">DIY Succulent Terrarium Kit</h1>
-				<p class="mb-2 text-sm">
-					Comes with a glass bowl, soil, pebbles, moss, and two succulents to
-					build your own mini terrarium. This kit is perfect for beginners who
-					want a fun, hands-on way to learn about plant care. The included
-					step-by-step guide makes it easy to assemble, and the finished
-					terrarium doubles as a unique piece of home décor. With minimal
-					watering required, it’s a low-maintenance way to bring a touch of
-					greenery into your space. Included is a care guide to help you nurture
-					your new plants, a set of assorted Succulent cuttings, and all the
-					materials you need to create your own beautiful terrarium.
-				</p>
-				<h3 class="text-lg my-2">Options:</h3>
-				<ul class="list-none mb-4 flex flex-wrap gap-1">
-					<li class="text-sm">
-						<button
-							class="bg-green-100 text-black py-2 px-4 rounded hover:bg-green-200 transition duration-300">
-							Mini Desk Kit
-						</button>
-					</li>
-					<li class="text-sm">
-						<button
-							class="bg-green-100 text-black py-2 px-4 rounded hover:bg-green-200 transition duration-300">
-							Trio Starter Pack
-						</button>
-					</li>
-					<li class="text-sm">
-						<button
-							class="bg-green-100 text-black py-2 px-4 rounded hover:bg-green-200 transition duration-300">
-							Succulent & Candle Gift Pack
-						</button>
-					</li>
-					<li class="text-sm">
-						<button
-							class="bg-green-100 text-black py-2 px-4 rounded hover:bg-green-200 transition duration-300">
-							Terrarium & Tool Pack
-						</button>
-					</li>
+		<main class="mx-auto max-w-4xl p-4 grid md:grid-cols-1 gap-4">
+			<h1 class="text-3xl">Checkout</h1>
+			<form class="grid gap-4 grid-cols-1">
+				<label class="flex flex-col"
+					>First Name:
+					<input
+						type="text"
+						required
+						placeholder="First Name"
+						class="border border-black p-2 rounded focus:outline-2 user-invalid:border-red-700 user-invalid:text-red-700 focus:bg-gray-100" /> </label
+				><label class="flex flex-col"
+					>Last Name:
+					<input
+						type="text"
+						placeholder="Last Name"
+						required
+						class="border border-black p-2 rounded focus:outline-2 user-invalid:border-red-700 user-invalid:text-red-700" /> </label
+				><label class="flex flex-col"
+					>Address:
+					<input
+						type="text"
+						placeholder="Address"
+						required
+						class="border border-black p-2 rounded focus:outline-2 user-invalid:border-red-700 user-invalid:text-red-700" /> </label
+				><label class="flex flex-col"
+					>City:
+					<input
+						type="text"
+						placeholder="City"
+						required
+						class="border border-black p-2 rounded focus:outline-2 user-invalid:border-red-700 user-invalid:text-red-700" /> </label
+				><label class="flex flex-col"
+					>State:
+					<select
+						required
+						class="border border-black p-2 rounded focus:outline-2 user-invalid:border-red-700 user-invalid:text-red-700">
+						<option value="" disabled selected>Select your state</option>
+						<option value="AB">Alabama</option>
+						<option value="AK">Alaska</option>
+						<option value="AZ">Arizona</option>
+						<option value="AR">Arkansas</option>
+						<option value="CA">California</option>
+						<option value="CO">Colorado</option>
+						<option value="CT">Connecticut</option>
+						<option value="DE">Delaware</option>
+						<option value="FL">Florida</option>
+						<option value="GA">Georgia</option>
+						<option value="HI">Hawaii</option>
+						<option value="ID">Idaho</option>
+						<option value="IL">Illinois</option>
+						<option value="IN">Indiana</option>
+						<option value="IA">Iowa</option>
+						<option value="KS">Kansas</option>
+						<option value="KY">Kentucky</option>
+						<option value="LA">Louisiana</option>
+						<option value="ME">Maine</option>
+						<option value="MD">Maryland</option>
+						<option value="MA">Massachusetts</option>
+						<option value="MI">Michigan</option>
+						<option value="MN">Minnesota</option>
+						<option value="MS">Mississippi</option>
+						<option value="MO">Missouri</option>
+						<option value="MT">Montana</option>
+						<option value="NE">Nebraska</option>
+						<option value="NV">Nevada</option>
+						<option value="NH">New Hampshire</option>
+						<option value="NJ">New Jersey</option>
+						<option value="NM">New Mexico</option>
+						<option value="NY">New York</option>
+						<option value="NC">North Carolina</option>
+						<option value="ND">North Dakota</option>
+						<option value="OH">Ohio</option>
+						<option value="OK">Oklahoma</option>
+						<option value="OR">Oregon</option>
+						<option value="PA">Pennsylvania</option>
+						<option value="RI">Rhode Island</option>
+						<option value="SC">South Carolina</option>
+						<option value="SD">South Dakota</option>
+						<option value="TN">Tennessee</option>
+						<option value="TX">Texas</option>
+						<option value="UT">Utah</option>
+						<option value="VT">Vermont</option>
+						<option value="VA">Virginia</option>
+						<option value="WA">Washington</option>
+						<option value="WV">West Virginia</option>
+						<option value="WI">Wisconsin</option>
+						<option value="WY">Wyoming</option>
+					</select>
+				</label>
 
-					<li class="text-sm">
-						<button
-							class="bg-green-100 text-black py-2 px-4 rounded hover:bg-green-200 transition duration-300">
-							Hanging Planter Kit
-						</button>
-					</li>
-				</ul>
-				<h3 class="text-lg my-2">Price:</h3>
-				<p class="text-lg">$49.99</p>
+				<label class="flex flex-col"
+					>Zip Code:
+					<input
+						type="number"
+						placeholder="Zip Code"
+						required
+						class="border border-black p-2 rounded focus:outline-2 user-invalid:border-red-700 user-invalid:text-red-700" /> </label
+				><label class="flex flex-col"
+					>Phone Number:
+					<input
+						type="tel"
+						placeholder="Phone Number"
+						class="border border-black p-2 rounded focus:outline-2 user-invalid:border-red-700 user-invalid:text-red-700" /> </label
+				><label class="flex flex-col"
+					>Email:
+					<input
+						type="email"
+						placeholder="Email"
+						required
+						class="border border-black p-2 rounded focus:outline-2 user-invalid:border-red-700 user-invalid:text-red-700" />
+				</label>
+				<div class="shipping">
+					<h2 class="text-2xl mb-4">Shipping Method</h2>
+					<div class="grid gap-2 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+						<div
+							class="block border border-black p-2 w-full rounded hover:bg-green-100 hover:transform ease-in-out hover:scale-95">
+							<input
+								type="radio"
+								id="standard"
+								name="shipping"
+								value="standard" />
+							<label for="standard"
+								>Standard Shipping (5-7 business days) - $5.00</label
+							>
+						</div>
+						<div
+							class="block border border-black p-2 w-full rounded hover:bg-green-100 hover:transform ease-in-out hover:scale-95">
+							<input
+								type="radio"
+								id="express"
+								name="shipping"
+								value="express" />
+							<label for="express"
+								>Express Shipping (2-3 business days) - $15.00</label
+							>
+						</div>
+						<div
+							class="block border border-black p-2 w-full rounded hover:bg-green-100 hover:transform ease-in-out hover:scale-95">
+							<input
+								type="radio"
+								id="overnight"
+								name="shipping"
+								value="overnight" />
+							<label for="overnight"
+								>Overnight Shipping (1 business day) - $25.00</label
+							>
+						</div>
+					</div>
+				</div>
+
+				<div class="payment">
+					<h2 class="text-2xl mb-4">Payment Method</h2>
+					<button
+						class="border rounded border-black p-2 hover:bg-green-100 hover:transform ease-in-out hover:scale-105">
+						Credit/Debit Card
+					</button>
+					<button
+						class="border rounded border-black p-2 hover:bg-green-100 hover:transform ease-in-out hover:scale-105">
+						PayPal
+					</button>
+					<button
+						class="border rounded border-black p-2 hover:bg-green-100 hover:transform transition ease-in-out hover:scale-105">
+						Bank Transfer
+					</button>
+				</div>
 				<button
-					class="mt-4 bg-green-100 text-black py-2 px-4 rounded hover:bg-green-200 transition duration-300">
-					Add to Cart
+					type="submit"
+					class="rounded w-full p-4 bg-green-500 text-white transition ease-in-out duration-300 hover:bg-green-600">
+					Review Order
 				</button>
-			</div>
+			</form>
 		</main>
 
 		<footer class="border-t border-black">
