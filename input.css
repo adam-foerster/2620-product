@@ -1,0 +1,32 @@
+@import "tailwindcss";
+@config "./tailwind.config.js";
+
+/* Add cards are styled using @apply in the input.css file */
+
+.card {
+	@apply max-w-lg border border-black rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 content-stretch flex flex-col justify-between bg-white m-4 self-center;
+}
+
+.card img {
+	@apply w-full h-48 object-cover rounded-t-lg;
+}
+
+.card h3 {
+	@apply text-xl font-semibold p-3 pb-1;
+}
+
+.card div {
+	@apply p-4;
+}
+
+.card p {
+	@apply text-gray-700 p-3 pb-1 my-auto;
+}
+
+.card .button {
+	@apply block bg-green-100 hover:bg-green-200 text-black py-3 px-6 mx-auto my-5 rounded md:text-xl lg:text-2xl lg:py-4 lg:px-8 hover:scale-105 transform transition-transform duration-200 text-center;
+}
+
+.card a {
+	@apply block bg-green-100 hover:bg-green-200 text-black py-3 px-6 rounded-b-lg md:text-xl lg:text-2xl lg:py-4 lg:px-8 text-center;
+}

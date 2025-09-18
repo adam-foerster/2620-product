@@ -1,3 +1,18 @@
 # Ignore macOS system files
 .DS_Store
 .DS_Store
+
+# Tailwind CSS CLI binary (too large for Git)
+tailwindcss
+
+# Node modules (if added later)
+node_modules/
+
+# Editor files
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log

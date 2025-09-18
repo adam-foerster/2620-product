@@ -1,0 +1,46 @@
+{
+	"succulentTools": [
+		{
+			"id": 1,
+			"name": "Precision Watering Can",
+			"description": "500ml squeeze bottle with narrow spout for precise succulent watering without getting water on leaves.",
+			"price": "$12.99",
+			"image": "https://images.unsplash.com/photo-1599277100479-3252d492a19a?w=800&h=400&fit=crop&auto=format"
+		},
+		{
+			"id": 2,
+			"name": "Succulent Soil Mix",
+			"description": "Premium well-draining soil blend with perlite and pumice, specifically formulated for cacti and succulent health.",
+			"price": "$18.50",
+			"image": "https://images.unsplash.com/photo-1492496913980-501348b61469?w=800&h=400&fit=crop&auto=format&fit=crop"
+		},
+		{
+			"id": 3,
+			"name": "Mini Gardening Tool Set",
+			"description": "Three-piece stainless steel tool set with trowel, spoon, and rake, perfectly sized for small succulents.",
+			"price": "$24.99",
+			"image": "https://images.unsplash.com/photo-1661712663315-d851d40bcf07?w=800&h=400&fit=crop&auto=format"
+		},
+		{
+			"id": 4,
+			"name": "Grow Light LED Lamp",
+			"description": "Full spectrum LED grow light with adjustable brightness timer, and settings for optimal indoor succulent growth indoors.",
+			"price": "$45.00",
+			"image": "https://images.unsplash.com/photo-1713941343997-8bd3ad41c222?w=800&h=400&fit=crop&auto=format"
+		},
+		{
+			"id": 5,
+			"name": "Terracotta Drainage Pots Set",
+			"description": "Set of six small terracotta pots with drainage holes and saucers for healthy succulent root growth.",
+			"price": "$22.75",
+			"image": "https://images.unsplash.com/photo-1620293106076-ad27d651efe3?w=800&h=400&fit=crop&auto=format"
+		},
+		{
+			"id": 6,
+			"name": "Succulent Fertilizer",
+			"description": "Organic liquid fertilizer with low-nitrogen formula specifically balanced for healthy cacti and succulent growth.",
+			"price": "$16.99",
+			"image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=400&h=400&fit=crop"
+		}
+	]
+}
