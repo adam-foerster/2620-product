@@ -1,7 +1,7 @@
 // This code will be moved to after the footer is created
 const pagename = document.title.split("|")[1].trim();
 
-fetch("../data.json")
+fetch("./data.json")
 	.then((response) => response.json())
 	.then((data) => {
 		const cardsContainer = document.querySelector(".toolCards");
