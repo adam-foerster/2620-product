@@ -77,7 +77,13 @@ imgDiv.className = "flex col-span-3 items-center";
 
 const logo = document.createElement("img");
 const logoText = document.createElement("p");
-logo.src = "../images/logo.svg";
+switch (pagename.toLowerCase()) {
+	case "home":
+		logo.src = "./images/logo.svg";
+		break;
+	default:
+		logo.src = "../images/logo.svg";
+}
 logo.width = 75;
 logo.height = 75;
 logo.alt = "Little Leaf Kits Logo";
@@ -100,7 +106,13 @@ links.forEach((link) => {
 	a.className = " hover:border-black border-x border-green-100 p-2";
 
 	const img = document.createElement("img");
-	img.src = `../images/${link.name}.svg`;
+	switch (pagename.toLowerCase()) {
+		case "home":
+			img.src = `./images/${link.name}.svg`;
+			break;
+		default:
+			img.src = `../images/${link.name}.svg`;
+	}
 	img.width = 30;
 	img.height = 30;
 	img.alt = `${link.name} icon`;
