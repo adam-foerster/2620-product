@@ -30,3 +30,19 @@
 .card a {
 	@apply block bg-green-100 hover:bg-green-200 text-black py-3 px-6 rounded-b-lg md:text-xl lg:text-2xl lg:py-4 lg:px-8 text-center;
 }
+
+/* Navigation bar styles */
+#nav-bar {
+	@apply flex justify-center items-center bg-green-100 pb-4;
+}
+#nav-bar li {
+	@apply px-2 border-x border-green-100 hover:border-black;
+}
+
+#nav-bar a {
+	@apply text-black no-underline px-2;
+}
+
+#nav-bar li.active {
+	@apply border-x border-black px-2;
+}

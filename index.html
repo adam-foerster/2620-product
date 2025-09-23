@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Little Leaf Kits | Tools</title>
+		<title>Little Leaf Kits | Home</title>
 		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
 		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
 		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
@@ -11,89 +11,95 @@
 		<link rel="stylesheet" href="styles.css" />
 	</head>
 	<body>
-		<header class="bg-green-100 p-4 grid grid-cols-4 items-center">
-			<div class="flex col-span-3 items-center">
-				<img
-					src="./images/logo.svg"
-					height="75"
-					width="75"
-					alt="Little Leaf Kits Logo" />
-				<div class="pl-4 text-2xl">
-					<h1>Little Leaf Kits | Tools</h1>
+		<header class="" id="header"></header>
+		<nav class="grid md:grid-cols-1 border-b border-black" id="nav-bar"></nav>
+
+		<main class="mx-auto max-w-5xl flex flex-col gap-9">
+			<div class="w-full h-auto">
+				<h1 class="text-3xl py-4">Little Leaf Kits</h1>
+
+				<div class="relative">
+					<picture class="">
+						<source
+							media="(min-width: 64rem)"
+							srcset="./images/hero-large.jpg" />
+						<source
+							media="(min-width: 48rem)"
+							srcset="./images/hero-medium.jpg" />
+						<img
+							src="./images/hero-small.jpg"
+							width="16"
+							height="9"
+							alt="A variety of succulent plants in pots"
+							class="w-full h-auto rounded-lg" />
+					</picture>
+					<a
+						href="#"
+						class="button absolute bottom-0 left-0 md:bottom-10 md:left-10">
+						Learn More
+					</a>
 				</div>
-			</div>
-			<div class="flex space-x-4 justify-end">
-				<a
-					href="#"
-					class="p-2 hover:border-black border-x mx-1 border-green-100"
-					><img
-						src="./images/account.svg"
-						alt="Account Icon"
-						height="25"
-						width="25"
-				/></a>
-				<a
-					href="#"
-					class="p-2 hover:border-black border-x mx-1 border-green-100"
-					><img src="./images/cart.svg" alt="Cart Icon" height="25" width="25"
-				/></a>
-			</div>
-		</header>
-		<nav class="grid md:grid-cols-1 border-b border-black">
-			<ul
-				class="nav-links md:flex space-x-4 items-center w-full justify-end px-4">
-				<li class="p-2 hover:border-black border-x mx-1 border-white">
-					<a href="#">Home</a>
-				</li>
-				<li class="p-2 hover:border-black border-x mx-1 border-white">
-					<a href="#">About</a>
-				</li>
-				<li class="hover:border-black border-x p-2 mx-1 border-white">
-					<a href="#">Succulent Kits</a>
-				</li>
-				<li class="border-black border-x p-2 mx-1">
-					<a href="#">Tools</a>
-				</li>
-				<li class="hover:border-black border-x p-2 mx-1 border-white">
-					<a href="#">Contact</a>
-				</li>
-			</ul>
-		</nav>
-
-		<main class="mx-auto max-w-5xl flex flex-col gap-4">
-			<div class="w-full h-auto py-2">
-				<h1 class="text-3xl px-4">Tools</h1>
-			</div>
-
-			<div class="px-4 mb-8">
-				<p class="text-lg">
-					Here at Little Leaf Kits, we offer a variety of tools to help you care
-					for your succulent plants. From watering cans to pruning shears, we
-					have everything you need to keep your plants healthy and thriving. Our
-					tools are made from high-quality materials and are designed to be
-					durable and long-lasting. Whether you're a beginner or an experienced
-					gardener, we have the tools you need to make caring for your
-					succulents easy and enjoyable.
-				</p>
 			</div>
 
 			<div class="px-4">
-				<div class="bg-blue-100 p-4 rounded">
-					<h2 class="text-2xl font-bold">Available Tools</h2>
-					<div
-						class="cards grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 justify-center"></div>
+				<p class="text-l">
+					Welcome to Little Leaf Kits, your one-stop shop for all things
+					succulents! We specialize in providing high-quality succulent kits
+					that make it easy for you to bring a touch of greenery into your home
+					or office. Whether you're a seasoned plant enthusiast or just starting
+					your plant journey, our kits are designed to be user-friendly and fun.
+					Our kits include everything you need to get started, from a variety of
+					succulent plants, pots, soil, and decorative elements.
+				</p>
+			</div>
+
+			<div
+				class="px-4 grid md:grid-cols-2 lg:grid-cols-4 gap-6 justify-items-center mb-4">
+				<div class="card">
+					<img
+						src="./images/AboutUs.jpg"
+						alt="About Us"
+						height="300"
+						width="300" />
+					<h3>About Us</h3>
+					<p>Learn more about our mission and values.</p>
+					<a href="#">Learn More</a>
+				</div>
+
+				<div class="card">
+					<img
+						src="./images/succulentKit.jpg"
+						alt="Succulent Kit"
+						height="300"
+						width="300" />
+					<h3>Succulent Kits</h3>
+					<p>
+						Explore our range of succulent kits designed for all skill levels.
+					</p>
+					<a href="#">Shop Now</a>
+				</div>
+
+				<div class="card">
+					<img src="./images/tools.jpg" alt="Tools" height="300" width="300" />
+					<h3>Tools</h3>
+					<p>Everything you need to care for your succulents.</p>
+					<a href="/tools/index.html">Start Now</a>
+				</div>
+
+				<div class="card">
+					<img
+						src="./images/contact.jpg"
+						alt="Contact Us"
+						height="300"
+						width="300" />
+					<h3>Contact Us</h3>
+					<p>If you have any questions, feel free to reach out!</p>
+					<a href="#">Reach Out</a>
 				</div>
 			</div>
 		</main>
 
-		<footer class="border-t border-black">
-			<div class="max-w-6xl mx-auto p-4">
-				<p class="text-center text-md">
-					&copy; <span id="c-year"></span> Little Leaf Kits | Adam Foerster
-					DWDD2620 | All rights reserved.
-				</p>
-			</div>
-			<script src="script.js"></script>
-		</footer>
+		<footer class="border-t border-black" id="footer"></footer>
+		<script src="./script.js"></script>
 	</body>
 </html>
