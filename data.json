@@ -1,7 +1,6 @@
 {
 	"navData": {
 		"links": [
-			{ "name": "Home", "url": "../index.html" },
 			{ "name": "About", "url": "../about/index.html" },
 			{ "name": "Kits", "url": "../kits/index.html" },
 			{ "name": "Tools", "url": "../tools/index.html" }

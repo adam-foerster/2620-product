@@ -52,7 +52,7 @@ fetch("./data.json")
 		data.navData.links.forEach((link) => {
 			const li = document.createElement("li");
 			const a = document.createElement("a");
-			a.href = link.url;
+			a.href = `/2620-product/${link.url}`;
 
 			switch (pagename.toLowerCase()) {
 				case link.name.toLowerCase():
